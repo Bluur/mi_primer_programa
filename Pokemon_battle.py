@@ -1,5 +1,5 @@
 
-pokemon_elegido = input('¿Contra qué Pokemon quieres combatir? (Squirtle / Charmander / Bulbasur): ')
+pokemon_elegido = input('¿Contra qué Pokemon quieres combatir? (Squirtle / Charmander / Bulbasur): ').capitalize()
 
 vida_pikachu = 100
 vida_enemigo = 0
