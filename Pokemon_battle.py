@@ -19,7 +19,7 @@ elif pokemon_elegido == 'Bulbasur':
     ataque_pokemon = 10
 
 while vida_pikachu > 0 and vida_enemigo > 0:
-    ataque_elegido = input('¿Qué ataque vamos a usar? ( Chispazo / Bola voltio): ')
+    ataque_elegido = input('¿Qué ataque vamos a usar? ( Chispazo / Bola voltio): ').capitalize()
 
     if ataque_elegido == 'Chispazo':
         input('¡Pikachu utiliza Chipazo y hace 10 de daño!')
