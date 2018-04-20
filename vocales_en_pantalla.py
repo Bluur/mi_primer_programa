@@ -3,7 +3,7 @@ texto_usuario = input("Introduce una frase: ")
 
 vocales = ["a", "e", "i", "o", "u"]
 vocales_texto = []
-n_vocales = 0
+
 
 for letra in texto_usuario:
     if letra in vocales:
