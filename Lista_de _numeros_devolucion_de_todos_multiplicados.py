@@ -2,6 +2,7 @@
 
 lista_de_numeros = []
 input_usuario = ""
+total = 1
 
 while len(lista_de_numeros) < 10:
     while not input_usuario.isdigit():
@@ -11,9 +12,13 @@ while len(lista_de_numeros) < 10:
     print("!Numero añadido¡")
 
 
-for numero in input_usuario:
-    if numero > 0:
-        lista_de_numeros.append(numero)
+for numero in lista_de_numeros:
+    total = total * numero
+
+print("El resultado  es {}".format(total))
+
+
+
 
 
 
